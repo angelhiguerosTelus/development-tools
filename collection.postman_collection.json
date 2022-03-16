@@ -11,9 +11,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base}}/posts",
+					"raw": "{{url}}/posts",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts"
@@ -28,9 +28,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base}}/posts/1",
+					"raw": "{{url}}/posts/1",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts",
@@ -61,9 +61,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{base}}/posts",
+					"raw": "{{url}}/posts",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts"
@@ -93,9 +93,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{base}}/posts/1/comments",
+					"raw": "{{url}}/posts/1/comments",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts",
@@ -122,9 +122,9 @@
 					"raw": "{\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"quidem molestiae enim\"\n  }"
 				},
 				"url": {
-					"raw": "{{base}}/posts/1/albums",
+					"raw": "{{url}}/posts/1/albums",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts",
@@ -156,9 +156,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{base}}/posts/1",
+					"raw": "{{url}}/posts/1",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts",
@@ -189,9 +189,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{base}}/posts/1",
+					"raw": "{{url}}/posts/1",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts",
@@ -207,9 +207,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{base}}/posts/1",
+					"raw": "{{url}}/posts/1",
 					"host": [
-						"{{base}}"
+						"{{url}}"
 					],
 					"path": [
 						"posts",
