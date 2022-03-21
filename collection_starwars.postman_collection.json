@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "73b235f7-09e7-4ad1-8995-6951b2ae7c61",
+		"name": "collection_starwars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "People",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/people/1",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"people",
+						"1"
+					]
+				},
+				"description": "A People resource is an individual person or character within the Star Wars universe"
+			},
+			"response": []
+		},
+		{
+			"name": "Films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/films/1",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"films",
+						"1"
+					]
+				},
+				"description": "A Film resource is a single film."
+			},
+			"response": []
+		},
+		{
+			"name": "Starships",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/starships/9",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"starships",
+						"9"
+					]
+				},
+				"description": "A Starship resource is a single transport craft that has hyperdrive capability."
+			},
+			"response": []
+		},
+		{
+			"name": "Vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/vehicles/4/",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"vehicles",
+						"4",
+						""
+					]
+				},
+				"description": "A Vehicle resource is a single transport craft that does not have hyperdrive capability."
+			},
+			"response": []
+		},
+		{
+			"name": "Species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/species/3",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"species",
+						"3"
+					]
+				},
+				"description": "A Species resource is a type of person or character within the Star Wars Universe."
+			},
+			"response": []
+		},
+		{
+			"name": "Planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_api}}/planets/1/",
+					"host": [
+						"{{url_api}}"
+					],
+					"path": [
+						"planets",
+						"1",
+						""
+					]
+				},
+				"description": "A Planet resource is a large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY."
+			},
+			"response": []
+		}
+	]
+}
